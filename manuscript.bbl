@@ -1,0 +1,1356 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{44}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{Robertson}
+\begin{barticle}
+\bauthor{\bsnm{Robertson}, \binits{G.}},
+\bauthor{\bsnm{Schein}, \binits{J.}},
+\bauthor{\bsnm{Chiu}, \binits{R.}},
+\bauthor{\bsnm{Corbett}, \binits{R.}},
+\bauthor{\bsnm{Field}, \binits{M.}},
+\bauthor{\bsnm{Jackman}, \binits{S.D.}},
+\bauthor{\bsnm{Mungall}, \binits{K.}},
+\bauthor{\bsnm{Lee}, \binits{S.}},
+\bauthor{\bsnm{Okada}, \binits{H.M.}},
+\bauthor{\bsnm{Qian}, \binits{J.Q.}}, \betal:
+\batitle{De novo assembly and analysis of rna-seq data}.
+\bjtitle{Nature methods}
+\bvolume{7}(\bissue{11}),
+\bfpage{909}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{Anders2012}
+\begin{botherref}
+\oauthor{\bsnm{Anders}, \binits{S.}},
+\oauthor{\bsnm{Reyes}, \binits{A.}},
+\oauthor{\bsnm{Huber}, \binits{W.}}:
+Detecting differential usage of exons from rna-seq data.
+Genome research,
+133744
+(2012)
+\end{botherref}
+\endbibitem
+
+%%% 3
+\bibitem{Pan}
+\begin{barticle}
+\bauthor{\bsnm{Pan}, \binits{Q.}},
+\bauthor{\bsnm{Shai}, \binits{O.}},
+\bauthor{\bsnm{Lee}, \binits{L.J.}},
+\bauthor{\bsnm{Frey}, \binits{B.J.}},
+\bauthor{\bsnm{Blencowe}, \binits{B.J.}}:
+\batitle{Deep surveying of alternative splicing complexity in the human
+  transcriptome by high-throughput sequencing}.
+\bjtitle{Nature genetics}
+\bvolume{40}(\bissue{12}),
+\bfpage{1413}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{Wang}
+\begin{barticle}
+\bauthor{\bsnm{Wang}, \binits{Z.}},
+\bauthor{\bsnm{Gerstein}, \binits{M.}},
+\bauthor{\bsnm{Snyder}, \binits{M.}}:
+\batitle{Rna-seq: a revolutionary tool for transcriptomics}.
+\bjtitle{Nature reviews genetics}
+\bvolume{10}(\bissue{1}),
+\bfpage{57}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{Zhao}
+\begin{barticle}
+\bauthor{\bsnm{Zhao}, \binits{S.}},
+\bauthor{\bsnm{Fung-Leung}, \binits{W.-P.}},
+\bauthor{\bsnm{Bittner}, \binits{A.}},
+\bauthor{\bsnm{Ngo}, \binits{K.}},
+\bauthor{\bsnm{Liu}, \binits{X.}}:
+\batitle{Comparison of rna-seq and microarray in transcriptome profiling of
+  activated t cells}.
+\bjtitle{PloS one}
+\bvolume{9}(\bissue{1}),
+\bfpage{78644}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{Anders2010}
+\begin{barticle}
+\bauthor{\bsnm{Anders}, \binits{S.}},
+\bauthor{\bsnm{Huber}, \binits{W.}}:
+\batitle{Differential expression analysis for sequence count data}.
+\bjtitle{Genome biology}
+\bvolume{11}(\bissue{10}),
+\bfpage{106}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{Trapnell2012}
+\begin{barticle}
+\bauthor{\bsnm{Trapnell}, \binits{C.}},
+\bauthor{\bsnm{Roberts}, \binits{A.}},
+\bauthor{\bsnm{Goff}, \binits{L.}},
+\bauthor{\bsnm{Pertea}, \binits{G.}},
+\bauthor{\bsnm{Kim}, \binits{D.}},
+\bauthor{\bsnm{Kelley}, \binits{D.R.}},
+\bauthor{\bsnm{Pimentel}, \binits{H.}},
+\bauthor{\bsnm{Salzberg}, \binits{S.L.}},
+\bauthor{\bsnm{Rinn}, \binits{J.L.}},
+\bauthor{\bsnm{Pachter}, \binits{L.}}:
+\batitle{Differential gene and transcript expression analysis of rna-seq
+  experiments with tophat and cufflinks}.
+\bjtitle{Nature protocols}
+\bvolume{7}(\bissue{3}),
+\bfpage{562}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{Trapnell2013}
+\begin{barticle}
+\bauthor{\bsnm{Trapnell}, \binits{C.}},
+\bauthor{\bsnm{Hendrickson}, \binits{D.G.}},
+\bauthor{\bsnm{Sauvageau}, \binits{M.}},
+\bauthor{\bsnm{Goff}, \binits{L.}},
+\bauthor{\bsnm{Rinn}, \binits{J.L.}},
+\bauthor{\bsnm{Pachter}, \binits{L.}}:
+\batitle{Differential analysis of gene regulation at transcript resolution with
+  rna-seq}.
+\bjtitle{Nature biotechnology}
+\bvolume{31}(\bissue{1}),
+\bfpage{46}
+(\byear{2013})
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{Robinson}
+\begin{barticle}
+\bauthor{\bsnm{Robinson}, \binits{M.D.}},
+\bauthor{\bsnm{McCarthy}, \binits{D.J.}},
+\bauthor{\bsnm{Smyth}, \binits{G.K.}}:
+\batitle{edger: a bioconductor package for differential expression analysis of
+  digital gene expression data}.
+\bjtitle{Bioinformatics}
+\bvolume{26}(\bissue{1}),
+\bfpage{139}--\blpage{140}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{Law}
+\begin{barticle}
+\bauthor{\bsnm{Law}, \binits{C.W.}},
+\bauthor{\bsnm{Chen}, \binits{Y.}},
+\bauthor{\bsnm{Shi}, \binits{W.}},
+\bauthor{\bsnm{Smyth}, \binits{G.K.}}:
+\batitle{voom: Precision weights unlock linear model analysis tools for rna-seq
+  read counts}.
+\bjtitle{Genome biology}
+\bvolume{15}(\bissue{2}),
+\bfpage{29}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem{Morin}
+\begin{barticle}
+\bauthor{\bsnm{Morin}, \binits{R.D.}},
+\bauthor{\bsnm{Bainbridge}, \binits{M.}},
+\bauthor{\bsnm{Fejes}, \binits{A.}},
+\bauthor{\bsnm{Hirst}, \binits{M.}},
+\bauthor{\bsnm{Krzywinski}, \binits{M.}},
+\bauthor{\bsnm{Pugh}, \binits{T.J.}},
+\bauthor{\bsnm{McDonald}, \binits{H.}},
+\bauthor{\bsnm{Varhol}, \binits{R.}},
+\bauthor{\bsnm{Jones}, \binits{S.J.}},
+\bauthor{\bsnm{Marra}, \binits{M.A.}}:
+\batitle{Profiling the hela s3 transcriptome using randomly primed cdna and
+  massively parallel short-read sequencing}.
+\bjtitle{Biotechniques}
+\bvolume{45}(\bissue{1}),
+\bfpage{81}--\blpage{94}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{Marioni}
+\begin{botherref}
+\oauthor{\bsnm{Marioni}, \binits{J.C.}},
+\oauthor{\bsnm{Mason}, \binits{C.E.}},
+\oauthor{\bsnm{Mane}, \binits{S.M.}},
+\oauthor{\bsnm{Stephens}, \binits{M.}},
+\oauthor{\bsnm{Gilad}, \binits{Y.}}:
+Rna-seq: an assessment of technical reproducibility and comparison with gene
+  expression arrays.
+Genome research
+(2008)
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem{Hansen}
+\begin{barticle}
+\bauthor{\bsnm{Hansen}, \binits{K.D.}},
+\bauthor{\bsnm{Brenner}, \binits{S.E.}},
+\bauthor{\bsnm{Dudoit}, \binits{S.}}:
+\batitle{Biases in illumina transcriptome sequencing caused by random hexamer
+  priming}.
+\bjtitle{Nucleic acids research}
+\bvolume{38}(\bissue{12}),
+\bfpage{131}--\blpage{131}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{Oshlack}
+\begin{barticle}
+\bauthor{\bsnm{Oshlack}, \binits{A.}},
+\bauthor{\bsnm{Robinson}, \binits{M.D.}},
+\bauthor{\bsnm{Young}, \binits{M.D.}}:
+\batitle{From rna-seq reads to differential expression results}.
+\bjtitle{Genome biology}
+\bvolume{11}(\bissue{12}),
+\bfpage{220}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{RobinsonOshlack}
+\begin{barticle}
+\bauthor{\bsnm{Robinson}, \binits{M.D.}},
+\bauthor{\bsnm{Oshlack}, \binits{A.}}:
+\batitle{A scaling normalization method for differential expression analysis of
+  rna-seq data}.
+\bjtitle{Genome biology}
+\bvolume{11}(\bissue{3}),
+\bfpage{25}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{McIntyre}
+\begin{barticle}
+\bauthor{\bsnm{McIntyre}, \binits{L.M.}},
+\bauthor{\bsnm{Lopiano}, \binits{K.K.}},
+\bauthor{\bsnm{Morse}, \binits{A.M.}},
+\bauthor{\bsnm{Amin}, \binits{V.}},
+\bauthor{\bsnm{Oberg}, \binits{A.L.}},
+\bauthor{\bsnm{Young}, \binits{L.J.}},
+\bauthor{\bsnm{Nuzhdin}, \binits{S.V.}}:
+\batitle{Rna-seq: technical variability and sampling}.
+\bjtitle{BMC genomics}
+\bvolume{12}(\bissue{1}),
+\bfpage{293}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem{Bullard}
+\begin{barticle}
+\bauthor{\bsnm{Bullard}, \binits{J.H.}},
+\bauthor{\bsnm{Purdom}, \binits{E.}},
+\bauthor{\bsnm{Hansen}, \binits{K.D.}},
+\bauthor{\bsnm{Dudoit}, \binits{S.}}:
+\batitle{Evaluation of statistical methods for normalization and differential
+  expression in mrna-seq experiments}.
+\bjtitle{BMC bioinformatics}
+\bvolume{11}(\bissue{1}),
+\bfpage{94}
+(\byear{2010})
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem{Shneiderman}
+\begin{barticle}
+\bauthor{\bsnm{Shneiderman}, \binits{B.}}:
+\batitle{Inventing discovery tools: combining information visualization with
+  data mining}.
+\bjtitle{Information visualization}
+\bvolume{1}(\bissue{1}),
+\bfpage{5}--\blpage{12}
+(\byear{2002})
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem{bioconductor}
+\begin{barticle}
+\bauthor{\bsnm{Gentleman}, \binits{R.C.}},
+\bauthor{\bsnm{Carey}, \binits{V.J.}},
+\bauthor{\bsnm{Bates}, \binits{D.M.}},
+\bauthor{\bsnm{Bolstad}, \binits{B.}},
+\bauthor{\bsnm{Dettling}, \binits{M.}},
+\bauthor{\bsnm{Dudoit}, \binits{S.}},
+\bauthor{\bsnm{Ellis}, \binits{B.}},
+\bauthor{\bsnm{Gautier}, \binits{L.}},
+\bauthor{\bsnm{Ge}, \binits{Y.}},
+\bauthor{\bsnm{Gentry}, \binits{J.}}, \betal:
+\batitle{Bioconductor: open software development for computational biology and
+  bioinformatics}.
+\bjtitle{Genome biology}
+\bvolume{5}(\bissue{10}),
+\bfpage{80}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem{Huber}
+\begin{barticle}
+\bauthor{\bsnm{Huber}, \binits{W.}},
+\bauthor{\bsnm{Carey}, \binits{V.J.}},
+\bauthor{\bsnm{Gentleman}, \binits{R.}},
+\bauthor{\bsnm{Anders}, \binits{S.}},
+\bauthor{\bsnm{Carlson}, \binits{M.}},
+\bauthor{\bsnm{Carvalho}, \binits{B.S.}},
+\bauthor{\bsnm{Bravo}, \binits{H.C.}},
+\bauthor{\bsnm{Davis}, \binits{S.}},
+\bauthor{\bsnm{Gatto}, \binits{L.}},
+\bauthor{\bsnm{Girke}, \binits{T.}}, \betal:
+\batitle{Orchestrating high-throughput genomic analysis with bioconductor}.
+\bjtitle{Nature methods}
+\bvolume{12}(\bissue{2}),
+\bfpage{115}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{Love}
+\begin{barticle}
+\bauthor{\bsnm{Love}, \binits{M.I.}},
+\bauthor{\bsnm{Huber}, \binits{W.}},
+\bauthor{\bsnm{Anders}, \binits{S.}}:
+\batitle{Moderated estimation of fold change and dispersion for rna-seq data
+  with deseq2}.
+\bjtitle{Genome biology}
+\bvolume{15}(\bissue{12}),
+\bfpage{550}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem{Risso}
+\begin{barticle}
+\bauthor{\bsnm{Risso}, \binits{D.}},
+\bauthor{\bsnm{Schwartz}, \binits{K.}},
+\bauthor{\bsnm{Sherlock}, \binits{G.}},
+\bauthor{\bsnm{Dudoit}, \binits{S.}}:
+\batitle{Gc-content normalization for rna-seq data}.
+\bjtitle{BMC bioinformatics}
+\bvolume{12}(\bissue{1}),
+\bfpage{480}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem{Ritchie}
+\begin{barticle}
+\bauthor{\bsnm{Ritchie}, \binits{M.E.}},
+\bauthor{\bsnm{Phipson}, \binits{B.}},
+\bauthor{\bsnm{Wu}, \binits{D.}},
+\bauthor{\bsnm{Hu}, \binits{Y.}},
+\bauthor{\bsnm{Law}, \binits{C.W.}},
+\bauthor{\bsnm{Shi}, \binits{W.}},
+\bauthor{\bsnm{Smyth}, \binits{G.K.}}:
+\batitle{limma powers differential expression analyses for rna-sequencing and
+  microarray studies}.
+\bjtitle{Nucleic acids research}
+\bvolume{43}(\bissue{7}),
+\bfpage{47}--\blpage{47}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem{Lauter16}
+\begin{botherref}
+\oauthor{\bsnm{Moran~Lauter}, \binits{A.N.}},
+\oauthor{\bsnm{Graham}, \binits{M.A.}}:
+NCBI SRA Bioproject Accession: PRJNA318409.
+\url{https://www.ncbi.nlm.nih.gov/bioproject/PRJNA318409}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 25
+\bibitem{Chandrasekhar}
+\begin{botherref}
+\oauthor{\bsnm{Chandrasekhar}, \binits{T.}},
+\oauthor{\bsnm{Thangavel}, \binits{K.}},
+\oauthor{\bsnm{Elayaraja}, \binits{E.}}:
+Effective clustering algorithms for gene expression data.
+arXiv preprint arXiv:1201.4914
+(2012)
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem{deSouto}
+\begin{bchapter}
+\bauthor{\bparticle{de} \bsnm{Souto}, \binits{M.C.}},
+\bauthor{\bparticle{de} \bsnm{Araujo}, \binits{D.S.}},
+\bauthor{\bsnm{Costa}, \binits{I.G.}},
+\bauthor{\bsnm{Soares}, \binits{R.G.}},
+\bauthor{\bsnm{Ludermir}, \binits{T.B.}},
+\bauthor{\bsnm{Schliep}, \binits{A.}}:
+\bctitle{Comparative study on normalization procedures for cluster analysis of
+  gene expression datasets}.
+In: \bbtitle{Neural Networks, 2008. IJCNN 2008.(IEEE World Congress on
+  Computational Intelligence). IEEE International Joint Conference On},
+pp. \bfpage{2792}--\blpage{2798}
+(\byear{2008}).
+\bcomment{IEEE}
+\end{bchapter}
+\endbibitem
+
+%%% 27
+\bibitem{Brown}
+\begin{barticle}
+\bauthor{\bsnm{Brown}, \binits{A.V.}},
+\bauthor{\bsnm{Hudson}, \binits{K.A.}}:
+\batitle{Developmental profiling of gene expression in soybean trifoliate
+  leaves and cotyledons}.
+\bjtitle{BMC plant biology}
+\bvolume{15}(\bissue{1}),
+\bfpage{169}
+(\byear{2015})
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem{scatmat}
+\begin{botherref}
+\oauthor{\bsnm{Rutter}, \binits{L.}},
+\oauthor{\bsnm{Cook}, \binits{D.}}
+\url{https://rnaseqvisualization.shinyapps.io/scatmat}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 29
+\bibitem{Ioannidis}
+\begin{barticle}
+\bauthor{\bsnm{Ioannidis}, \binits{J.P.}},
+\bauthor{\bsnm{Allison}, \binits{D.B.}},
+\bauthor{\bsnm{Ball}, \binits{C.A.}},
+\bauthor{\bsnm{Coulibaly}, \binits{I.}},
+\bauthor{\bsnm{Cui}, \binits{X.}},
+\bauthor{\bsnm{Culhane}, \binits{A.C.}},
+\bauthor{\bsnm{Falchi}, \binits{M.}},
+\bauthor{\bsnm{Furlanello}, \binits{C.}},
+\bauthor{\bsnm{Game}, \binits{L.}},
+\bauthor{\bsnm{Jurman}, \binits{G.}}, \betal:
+\batitle{Repeatability of published microarray gene expression analyses}.
+\bjtitle{Nature genetics}
+\bvolume{41}(\bissue{2}),
+\bfpage{149}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem{Baggerly}
+\begin{botherref}
+\oauthor{\bsnm{Baggerly}, \binits{K.A.}},
+\oauthor{\bsnm{Coombes}, \binits{K.R.}}:
+Deriving chemosensitivity from cell lines: Forensic bioinformatics and
+  reproducible research in high-throughput biology.
+The Annals of Applied Statistics,
+1309--1334
+(2009)
+\end{botherref}
+\endbibitem
+
+%%% 31
+\bibitem{Cook}
+\begin{barticle}
+\bauthor{\bsnm{Cook}, \binits{D.}},
+\bauthor{\bsnm{Hofmann}, \binits{H.}},
+\bauthor{\bsnm{Lee}, \binits{E.-K.}},
+\bauthor{\bsnm{Yang}, \binits{H.}},
+\bauthor{\bsnm{Nikolau}, \binits{B.}},
+\bauthor{\bsnm{Wurtele}, \binits{E.}}:
+\batitle{Exploring gene expression data, using plots}.
+\bjtitle{Journal of Data Science}
+\bvolume{5}(\bissue{2}),
+\bfpage{151}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem{litrecluster1}
+\begin{botherref}
+\oauthor{\bsnm{Rutter}, \binits{L.}},
+\oauthor{\bsnm{Cook}, \binits{D.}}
+\url{https://rnaseqvisualization.shinyapps.io/litrecluster1}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 33
+\bibitem{litrecluster2}
+\begin{botherref}
+\oauthor{\bsnm{Rutter}, \binits{L.}},
+\oauthor{\bsnm{Cook}, \binits{D.}}
+\url{https://rnaseqvisualization.shinyapps.io/litrecluster2}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 34
+\bibitem{litrecluster3}
+\begin{botherref}
+\oauthor{\bsnm{Rutter}, \binits{L.}},
+\oauthor{\bsnm{Cook}, \binits{D.}}
+\url{https://rnaseqvisualization.shinyapps.io/litrecluster3}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 35
+\bibitem{litrecluster4}
+\begin{botherref}
+\oauthor{\bsnm{Rutter}, \binits{L.}},
+\oauthor{\bsnm{Cook}, \binits{D.}}
+\url{https://rnaseqvisualization.shinyapps.io/litrecluster4}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 36
+\bibitem{bigPint}
+\begin{botherref}
+\oauthor{\bsnm{Rutter}, \binits{L.}},
+\oauthor{\bsnm{Cook}, \binits{D.}}:
+bigPint: Make Big Data Pint-sized.
+\url{https://lindsayrutter.github.io/bigPint}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 37
+\bibitem{bigPint2}
+\begin{botherref}
+\oauthor{\bsnm{Rutter}, \binits{L.}},
+\oauthor{\bsnm{Cook}, \binits{D.}}:
+Recommended RNA-seq Pipeline.
+\url{https://lindsayrutter.github.io/bigPint/articles/pipeline.html}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 38
+\bibitem{R}
+\begin{botherref}
+\oauthor{\bsnm{Team}, \binits{R.C.}}:
+A Language and Environment for Statistical Computing.
+\url{https://www.R-project.org}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 39
+\bibitem{htmlwidgets}
+\begin{botherref}
+\oauthor{\bsnm{Vaidyanathan}, \binits{R.}},
+\oauthor{\bsnm{Xie}, \binits{Y.}},
+\oauthor{\bsnm{Allaire}, \binits{J.}},
+\oauthor{\bsnm{Cheng}, \binits{J.}},
+\oauthor{\bsnm{Russell}, \binits{K.}}:
+Htmlwidgets: HTML Widgets for R, 2016.
+\url{https://cran.r-project.org/package=htmlwidgets}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 40
+\bibitem{ggplot2}
+\begin{bbook}
+\bauthor{\bsnm{Wickham}, \binits{H.}}:
+\bbtitle{Ggplot2: Elegant Graphics for Data Analysis}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2016})
+\end{bbook}
+\endbibitem
+
+%%% 41
+\bibitem{shiny}
+\begin{botherref}
+\oauthor{\bsnm{Chang}, \binits{W.}},
+\oauthor{\bsnm{Cheng}, \binits{J.}},
+\oauthor{\bsnm{Allaire}, \binits{J.}},
+\oauthor{\bsnm{Xie}, \binits{Y.}},
+\oauthor{\bsnm{McPherson}, \binits{J.}}:
+Shiny: Web Application Framework for R [Computer Software].
+\url{https://cran.r-project.org/package=shiny}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 42
+\bibitem{plotly}
+\begin{botherref}
+\oauthor{\bsnm{Sievert}, \binits{C.}},
+\oauthor{\bsnm{Parmer}, \binits{C.}},
+\oauthor{\bsnm{Hocking}, \binits{T.}},
+\oauthor{\bsnm{Chamberlain}, \binits{S.}},
+\oauthor{\bsnm{Ram}, \binits{K.}},
+\oauthor{\bsnm{Corvellec}, \binits{M.}},
+\oauthor{\bsnm{Despouy}, \binits{P.}}:
+Plotly: Create Interactive Web Graphics Via 'plotly.js'.
+\url{https://cran.r-project.org/package=plotly}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 43
+\bibitem{pkgdown}
+\begin{botherref}
+\oauthor{\bsnm{Wickham}, \binits{H.}},
+\oauthor{\bsnm{Hesselberth}, \binits{J.}}:
+Pkgdown: Make Static HTML Documentation for a Package.
+\url{https://cran.r-project.org/package=pkgdown}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+%%% 44
+\bibitem{rstudio}
+\begin{botherref}
+RStudio: Integrated Development for R.
+\url{http://www.rstudio.com}
+Accessed 2018-12-20
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>De novo assembly and analysis of RNA-seq data</p></title>
+  <aug>
+    <au><snm>Robertson</snm><fnm>G</fnm></au>
+    <au><snm>Schein</snm><fnm>J</fnm></au>
+    <au><snm>Chiu</snm><fnm>R</fnm></au>
+    <au><snm>Corbett</snm><fnm>R</fnm></au>
+    <au><snm>Field</snm><fnm>M</fnm></au>
+    <au><snm>Jackman</snm><fnm>SD</fnm></au>
+    <au><snm>Mungall</snm><fnm>K</fnm></au>
+    <au><snm>Lee</snm><fnm>S</fnm></au>
+    <au><snm>Okada</snm><fnm>HM</fnm></au>
+    <au><snm>Qian</snm><fnm>JQ</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Nature methods</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2010</pubdate>
+  <volume>7</volume>
+  <issue>11</issue>
+  <fpage>909</fpage>
+</bibl>
+
+<bibl id="B2">
+  <title><p>Detecting differential usage of exons from RNA-seq data</p></title>
+  <aug>
+    <au><snm>Anders</snm><fnm>S</fnm></au>
+    <au><snm>Reyes</snm><fnm>A</fnm></au>
+    <au><snm>Huber</snm><fnm>W</fnm></au>
+  </aug>
+  <source>Genome research</source>
+  <publisher>Cold Spring Harbor Lab</publisher>
+  <pubdate>2012</pubdate>
+  <fpage>gr</fpage>
+  <lpage>-133744</lpage>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Deep surveying of alternative splicing complexity in the human
+  transcriptome by high-throughput sequencing</p></title>
+  <aug>
+    <au><snm>Pan</snm><fnm>Q</fnm></au>
+    <au><snm>Shai</snm><fnm>O</fnm></au>
+    <au><snm>Lee</snm><fnm>LJ</fnm></au>
+    <au><snm>Frey</snm><fnm>BJ</fnm></au>
+    <au><snm>Blencowe</snm><fnm>BJ</fnm></au>
+  </aug>
+  <source>Nature genetics</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2008</pubdate>
+  <volume>40</volume>
+  <issue>12</issue>
+  <fpage>1413</fpage>
+</bibl>
+
+<bibl id="B4">
+  <title><p>RNA-Seq: a revolutionary tool for transcriptomics</p></title>
+  <aug>
+    <au><snm>Wang</snm><fnm>Z</fnm></au>
+    <au><snm>Gerstein</snm><fnm>M</fnm></au>
+    <au><snm>Snyder</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Nature reviews genetics</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2009</pubdate>
+  <volume>10</volume>
+  <issue>1</issue>
+  <fpage>57</fpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>Comparison of RNA-Seq and microarray in transcriptome profiling of
+  activated T cells</p></title>
+  <aug>
+    <au><snm>Zhao</snm><fnm>S</fnm></au>
+    <au><snm>Fung Leung</snm><fnm>WP</fnm></au>
+    <au><snm>Bittner</snm><fnm>A</fnm></au>
+    <au><snm>Ngo</snm><fnm>K</fnm></au>
+    <au><snm>Liu</snm><fnm>X</fnm></au>
+  </aug>
+  <source>PloS one</source>
+  <publisher>Public Library of Science</publisher>
+  <pubdate>2014</pubdate>
+  <volume>9</volume>
+  <issue>1</issue>
+  <fpage>e78644</fpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>Differential expression analysis for sequence count
+  data</p></title>
+  <aug>
+    <au><snm>Anders</snm><fnm>S</fnm></au>
+    <au><snm>Huber</snm><fnm>W</fnm></au>
+  </aug>
+  <source>Genome biology</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>10</issue>
+  <fpage>R106</fpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>Differential gene and transcript expression analysis of RNA-seq
+  experiments with TopHat and Cufflinks</p></title>
+  <aug>
+    <au><snm>Trapnell</snm><fnm>C</fnm></au>
+    <au><snm>Roberts</snm><fnm>A</fnm></au>
+    <au><snm>Goff</snm><fnm>L</fnm></au>
+    <au><snm>Pertea</snm><fnm>G</fnm></au>
+    <au><snm>Kim</snm><fnm>D</fnm></au>
+    <au><snm>Kelley</snm><fnm>DR</fnm></au>
+    <au><snm>Pimentel</snm><fnm>H</fnm></au>
+    <au><snm>Salzberg</snm><fnm>SL</fnm></au>
+    <au><snm>Rinn</snm><fnm>JL</fnm></au>
+    <au><snm>Pachter</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Nature protocols</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2012</pubdate>
+  <volume>7</volume>
+  <issue>3</issue>
+  <fpage>562</fpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Differential analysis of gene regulation at transcript resolution
+  with RNA-seq</p></title>
+  <aug>
+    <au><snm>Trapnell</snm><fnm>C</fnm></au>
+    <au><snm>Hendrickson</snm><fnm>DG</fnm></au>
+    <au><snm>Sauvageau</snm><fnm>M</fnm></au>
+    <au><snm>Goff</snm><fnm>L</fnm></au>
+    <au><snm>Rinn</snm><fnm>JL</fnm></au>
+    <au><snm>Pachter</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Nature biotechnology</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2013</pubdate>
+  <volume>31</volume>
+  <issue>1</issue>
+  <fpage>46</fpage>
+</bibl>
+
+<bibl id="B9">
+  <title><p>edgeR: a Bioconductor package for differential expression analysis
+  of digital gene expression data</p></title>
+  <aug>
+    <au><snm>Robinson</snm><fnm>MD</fnm></au>
+    <au><snm>McCarthy</snm><fnm>DJ</fnm></au>
+    <au><snm>Smyth</snm><fnm>GK</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <publisher>Oxford University Press</publisher>
+  <pubdate>2010</pubdate>
+  <volume>26</volume>
+  <issue>1</issue>
+  <fpage>139</fpage>
+  <lpage>-140</lpage>
+</bibl>
+
+<bibl id="B10">
+  <title><p>voom: Precision weights unlock linear model analysis tools for
+  RNA-seq read counts</p></title>
+  <aug>
+    <au><snm>Law</snm><fnm>CW</fnm></au>
+    <au><snm>Chen</snm><fnm>Y</fnm></au>
+    <au><snm>Shi</snm><fnm>W</fnm></au>
+    <au><snm>Smyth</snm><fnm>GK</fnm></au>
+  </aug>
+  <source>Genome biology</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2014</pubdate>
+  <volume>15</volume>
+  <issue>2</issue>
+  <fpage>R29</fpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>Profiling the HeLa S3 transcriptome using randomly primed cDNA and
+  massively parallel short-read sequencing</p></title>
+  <aug>
+    <au><snm>Morin</snm><fnm>RD</fnm></au>
+    <au><snm>Bainbridge</snm><fnm>M</fnm></au>
+    <au><snm>Fejes</snm><fnm>A</fnm></au>
+    <au><snm>Hirst</snm><fnm>M</fnm></au>
+    <au><snm>Krzywinski</snm><fnm>M</fnm></au>
+    <au><snm>Pugh</snm><fnm>TJ</fnm></au>
+    <au><snm>McDonald</snm><fnm>H</fnm></au>
+    <au><snm>Varhol</snm><fnm>R</fnm></au>
+    <au><snm>Jones</snm><fnm>SJ</fnm></au>
+    <au><snm>Marra</snm><fnm>MA</fnm></au>
+  </aug>
+  <source>Biotechniques</source>
+  <publisher>Future Science</publisher>
+  <pubdate>2008</pubdate>
+  <volume>45</volume>
+  <issue>1</issue>
+  <fpage>81</fpage>
+  <lpage>-94</lpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>RNA-seq: an assessment of technical reproducibility and comparison
+  with gene expression arrays</p></title>
+  <aug>
+    <au><snm>Marioni</snm><fnm>JC</fnm></au>
+    <au><snm>Mason</snm><fnm>CE</fnm></au>
+    <au><snm>Mane</snm><fnm>SM</fnm></au>
+    <au><snm>Stephens</snm><fnm>M</fnm></au>
+    <au><snm>Gilad</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>Genome research</source>
+  <publisher>Cold Spring Harbor Lab</publisher>
+  <pubdate>2008</pubdate>
+</bibl>
+
+<bibl id="B13">
+  <title><p>Biases in Illumina transcriptome sequencing caused by random
+  hexamer priming</p></title>
+  <aug>
+    <au><snm>Hansen</snm><fnm>KD</fnm></au>
+    <au><snm>Brenner</snm><fnm>SE</fnm></au>
+    <au><snm>Dudoit</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Nucleic acids research</source>
+  <publisher>Oxford University Press</publisher>
+  <pubdate>2010</pubdate>
+  <volume>38</volume>
+  <issue>12</issue>
+  <fpage>e131</fpage>
+  <lpage>-e131</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>From RNA-seq reads to differential expression results</p></title>
+  <aug>
+    <au><snm>Oshlack</snm><fnm>A</fnm></au>
+    <au><snm>Robinson</snm><fnm>MD</fnm></au>
+    <au><snm>Young</snm><fnm>MD</fnm></au>
+  </aug>
+  <source>Genome biology</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>12</issue>
+  <fpage>220</fpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>A scaling normalization method for differential expression analysis
+  of RNA-seq data</p></title>
+  <aug>
+    <au><snm>Robinson</snm><fnm>MD</fnm></au>
+    <au><snm>Oshlack</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Genome biology</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>3</issue>
+  <fpage>R25</fpage>
+</bibl>
+
+<bibl id="B16">
+  <title><p>RNA-seq: technical variability and sampling</p></title>
+  <aug>
+    <au><snm>McIntyre</snm><fnm>LM</fnm></au>
+    <au><snm>Lopiano</snm><fnm>KK</fnm></au>
+    <au><snm>Morse</snm><fnm>AM</fnm></au>
+    <au><snm>Amin</snm><fnm>V</fnm></au>
+    <au><snm>Oberg</snm><fnm>AL</fnm></au>
+    <au><snm>Young</snm><fnm>LJ</fnm></au>
+    <au><snm>Nuzhdin</snm><fnm>SV</fnm></au>
+  </aug>
+  <source>BMC genomics</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2011</pubdate>
+  <volume>12</volume>
+  <issue>1</issue>
+  <fpage>293</fpage>
+</bibl>
+
+<bibl id="B17">
+  <title><p>Evaluation of statistical methods for normalization and
+  differential expression in mRNA-Seq experiments</p></title>
+  <aug>
+    <au><snm>Bullard</snm><fnm>JH</fnm></au>
+    <au><snm>Purdom</snm><fnm>E</fnm></au>
+    <au><snm>Hansen</snm><fnm>KD</fnm></au>
+    <au><snm>Dudoit</snm><fnm>S</fnm></au>
+  </aug>
+  <source>BMC bioinformatics</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2010</pubdate>
+  <volume>11</volume>
+  <issue>1</issue>
+  <fpage>94</fpage>
+</bibl>
+
+<bibl id="B18">
+  <title><p>Inventing discovery tools: combining information visualization with
+  data mining</p></title>
+  <aug>
+    <au><snm>Shneiderman</snm><fnm>B</fnm></au>
+  </aug>
+  <source>Information visualization</source>
+  <publisher>SAGE Publications Sage UK: London, England</publisher>
+  <pubdate>2002</pubdate>
+  <volume>1</volume>
+  <issue>1</issue>
+  <fpage>5</fpage>
+  <lpage>-12</lpage>
+</bibl>
+
+<bibl id="B19">
+  <title><p>Bioconductor: open software development for computational biology
+  and bioinformatics</p></title>
+  <aug>
+    <au><snm>Gentleman</snm><fnm>RC</fnm></au>
+    <au><snm>Carey</snm><fnm>VJ</fnm></au>
+    <au><snm>Bates</snm><fnm>DM</fnm></au>
+    <au><snm>Bolstad</snm><fnm>B</fnm></au>
+    <au><snm>Dettling</snm><fnm>M</fnm></au>
+    <au><snm>Dudoit</snm><fnm>S</fnm></au>
+    <au><snm>Ellis</snm><fnm>B</fnm></au>
+    <au><snm>Gautier</snm><fnm>L</fnm></au>
+    <au><snm>Ge</snm><fnm>Y</fnm></au>
+    <au><snm>Gentry</snm><fnm>J</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Genome biology</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2004</pubdate>
+  <volume>5</volume>
+  <issue>10</issue>
+  <fpage>R80</fpage>
+</bibl>
+
+<bibl id="B20">
+  <title><p>Orchestrating high-throughput genomic analysis with
+  Bioconductor</p></title>
+  <aug>
+    <au><snm>Huber</snm><fnm>W</fnm></au>
+    <au><snm>Carey</snm><fnm>VJ</fnm></au>
+    <au><snm>Gentleman</snm><fnm>R</fnm></au>
+    <au><snm>Anders</snm><fnm>S</fnm></au>
+    <au><snm>Carlson</snm><fnm>M</fnm></au>
+    <au><snm>Carvalho</snm><fnm>BS</fnm></au>
+    <au><snm>Bravo</snm><fnm>HC</fnm></au>
+    <au><snm>Davis</snm><fnm>S</fnm></au>
+    <au><snm>Gatto</snm><fnm>L</fnm></au>
+    <au><snm>Girke</snm><fnm>T</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Nature methods</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2015</pubdate>
+  <volume>12</volume>
+  <issue>2</issue>
+  <fpage>115</fpage>
+</bibl>
+
+<bibl id="B21">
+  <title><p>Moderated estimation of fold change and dispersion for RNA-seq data
+  with DESeq2</p></title>
+  <aug>
+    <au><snm>Love</snm><fnm>MI</fnm></au>
+    <au><snm>Huber</snm><fnm>W</fnm></au>
+    <au><snm>Anders</snm><fnm>S</fnm></au>
+  </aug>
+  <source>Genome biology</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2014</pubdate>
+  <volume>15</volume>
+  <issue>12</issue>
+  <fpage>550</fpage>
+</bibl>
+
+<bibl id="B22">
+  <title><p>GC-content normalization for RNA-Seq data</p></title>
+  <aug>
+    <au><snm>Risso</snm><fnm>D</fnm></au>
+    <au><snm>Schwartz</snm><fnm>K</fnm></au>
+    <au><snm>Sherlock</snm><fnm>G</fnm></au>
+    <au><snm>Dudoit</snm><fnm>S</fnm></au>
+  </aug>
+  <source>BMC bioinformatics</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2011</pubdate>
+  <volume>12</volume>
+  <issue>1</issue>
+  <fpage>480</fpage>
+</bibl>
+
+<bibl id="B23">
+  <title><p>limma powers differential expression analyses for RNA-sequencing
+  and microarray studies</p></title>
+  <aug>
+    <au><snm>Ritchie</snm><fnm>ME</fnm></au>
+    <au><snm>Phipson</snm><fnm>B</fnm></au>
+    <au><snm>Wu</snm><fnm>D</fnm></au>
+    <au><snm>Hu</snm><fnm>Y</fnm></au>
+    <au><snm>Law</snm><fnm>CW</fnm></au>
+    <au><snm>Shi</snm><fnm>W</fnm></au>
+    <au><snm>Smyth</snm><fnm>GK</fnm></au>
+  </aug>
+  <source>Nucleic acids research</source>
+  <publisher>Oxford University Press</publisher>
+  <pubdate>2015</pubdate>
+  <volume>43</volume>
+  <issue>7</issue>
+  <fpage>e47</fpage>
+  <lpage>-e47</lpage>
+</bibl>
+
+<bibl id="B24">
+  <title><p>NCBI SRA bioproject accession: PRJNA318409</p></title>
+  <aug>
+    <au><snm>Moran Lauter</snm><fnm>AN</fnm></au>
+    <au><snm>Graham</snm><fnm>MA</fnm></au>
+  </aug>
+  <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA318409</url>
+</bibl>
+
+<bibl id="B25">
+  <title><p>Effective clustering algorithms for gene expression
+  data</p></title>
+  <aug>
+    <au><snm>Chandrasekhar</snm><fnm>T</fnm></au>
+    <au><snm>Thangavel</snm><fnm>K</fnm></au>
+    <au><snm>Elayaraja</snm><fnm>E</fnm></au>
+  </aug>
+  <source>arXiv preprint arXiv:1201.4914</source>
+  <pubdate>2012</pubdate>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Comparative study on normalization procedures for cluster analysis
+  of gene expression datasets</p></title>
+  <aug>
+    <au><snm>Souto</snm><fnm>MC</fnm></au>
+    <au><snm>Araujo</snm><fnm>DS</fnm></au>
+    <au><snm>Costa</snm><fnm>IG</fnm></au>
+    <au><snm>Soares</snm><fnm>RG</fnm></au>
+    <au><snm>Ludermir</snm><fnm>TB</fnm></au>
+    <au><snm>Schliep</snm><fnm>A</fnm></au>
+  </aug>
+  <source>Neural Networks, 2008. IJCNN 2008.(IEEE World Congress on
+  Computational Intelligence). IEEE International Joint Conference on</source>
+  <pubdate>2008</pubdate>
+  <fpage>2792</fpage>
+  <lpage>-2798</lpage>
+</bibl>
+
+<bibl id="B27">
+  <title><p>Developmental profiling of gene expression in soybean trifoliate
+  leaves and cotyledons</p></title>
+  <aug>
+    <au><snm>Brown</snm><fnm>AV</fnm></au>
+    <au><snm>Hudson</snm><fnm>KA</fnm></au>
+  </aug>
+  <source>BMC plant biology</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2015</pubdate>
+  <volume>15</volume>
+  <issue>1</issue>
+  <fpage>169</fpage>
+</bibl>
+
+<bibl id="B28">
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+  </aug>
+  <url>https://rnaseqvisualization.shinyapps.io/scatmat</url>
+</bibl>
+
+<bibl id="B29">
+  <title><p>Repeatability of published microarray gene expression
+  analyses</p></title>
+  <aug>
+    <au><snm>Ioannidis</snm><fnm>JP</fnm></au>
+    <au><snm>Allison</snm><fnm>DB</fnm></au>
+    <au><snm>Ball</snm><fnm>CA</fnm></au>
+    <au><snm>Coulibaly</snm><fnm>I</fnm></au>
+    <au><snm>Cui</snm><fnm>X</fnm></au>
+    <au><snm>Culhane</snm><fnm>AC</fnm></au>
+    <au><snm>Falchi</snm><fnm>M</fnm></au>
+    <au><snm>Furlanello</snm><fnm>C</fnm></au>
+    <au><snm>Game</snm><fnm>L</fnm></au>
+    <au><snm>Jurman</snm><fnm>G</fnm></au>
+    <au><cnm>others</cnm></au>
+  </aug>
+  <source>Nature genetics</source>
+  <publisher>Nature Publishing Group</publisher>
+  <pubdate>2009</pubdate>
+  <volume>41</volume>
+  <issue>2</issue>
+  <fpage>149</fpage>
+</bibl>
+
+<bibl id="B30">
+  <title><p>Deriving chemosensitivity from cell lines: Forensic bioinformatics
+  and reproducible research in high-throughput biology</p></title>
+  <aug>
+    <au><snm>Baggerly</snm><fnm>KA</fnm></au>
+    <au><snm>Coombes</snm><fnm>KR</fnm></au>
+  </aug>
+  <source>The Annals of Applied Statistics</source>
+  <publisher>JSTOR</publisher>
+  <pubdate>2009</pubdate>
+  <fpage>1309</fpage>
+  <lpage>-1334</lpage>
+</bibl>
+
+<bibl id="B31">
+  <title><p>Exploring gene expression data, using plots</p></title>
+  <aug>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+    <au><snm>Hofmann</snm><fnm>H</fnm></au>
+    <au><snm>Lee</snm><fnm>EK</fnm></au>
+    <au><snm>Yang</snm><fnm>H</fnm></au>
+    <au><snm>Nikolau</snm><fnm>B</fnm></au>
+    <au><snm>Wurtele</snm><fnm>E</fnm></au>
+  </aug>
+  <source>Journal of Data Science</source>
+  <pubdate>2007</pubdate>
+  <volume>5</volume>
+  <issue>2</issue>
+  <fpage>151</fpage>
+</bibl>
+
+<bibl id="B32">
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+  </aug>
+  <url>https://rnaseqvisualization.shinyapps.io/litrecluster1</url>
+</bibl>
+
+<bibl id="B33">
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+  </aug>
+  <url>https://rnaseqvisualization.shinyapps.io/litrecluster2</url>
+</bibl>
+
+<bibl id="B34">
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+  </aug>
+  <url>https://rnaseqvisualization.shinyapps.io/litrecluster3</url>
+</bibl>
+
+<bibl id="B35">
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+  </aug>
+  <url>https://rnaseqvisualization.shinyapps.io/litrecluster4</url>
+</bibl>
+
+<bibl id="B36">
+  <title><p>bigPint: Make big data pint-sized</p></title>
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+  </aug>
+  <url>https://lindsayrutter.github.io/bigPint</url>
+</bibl>
+
+<bibl id="B37">
+  <title><p>Recommended RNA-seq pipeline</p></title>
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+  </aug>
+  <url>https://lindsayrutter.github.io/bigPint/articles/pipeline.html</url>
+</bibl>
+
+<bibl id="B38">
+  <title><p>A language and environment for statistical computing</p></title>
+  <aug>
+    <au><snm>Team</snm><fnm>RC</fnm></au>
+  </aug>
+  <url>https://www.R-project.org</url>
+</bibl>
+
+<bibl id="B39">
+  <title><p>htmlwidgets: HTML Widgets for R, 2016</p></title>
+  <aug>
+    <au><snm>Vaidyanathan</snm><fnm>R</fnm></au>
+    <au><snm>Xie</snm><fnm>Y</fnm></au>
+    <au><snm>Allaire</snm><fnm>JJ</fnm></au>
+    <au><snm>Cheng</snm><fnm>J</fnm></au>
+    <au><snm>Russell</snm><fnm>K</fnm></au>
+  </aug>
+  <url>https://cran.r-project.org/package=htmlwidgets</url>
+</bibl>
+
+<bibl id="B40">
+  <title><p>ggplot2: elegant graphics for data analysis</p></title>
+  <aug>
+    <au><snm>Wickham</snm><fnm>H</fnm></au>
+  </aug>
+  <publisher>Springer</publisher>
+  <pubdate>2016</pubdate>
+</bibl>
+
+<bibl id="B41">
+  <title><p>shiny: Web application framework for R [Computer
+  software]</p></title>
+  <aug>
+    <au><snm>Chang</snm><fnm>W</fnm></au>
+    <au><snm>Cheng</snm><fnm>J</fnm></au>
+    <au><snm>Allaire</snm><fnm>JJ</fnm></au>
+    <au><snm>Xie</snm><fnm>Y</fnm></au>
+    <au><snm>McPherson</snm><fnm>J</fnm></au>
+  </aug>
+  <url>https://cran.r-project.org/package=shiny</url>
+</bibl>
+
+<bibl id="B42">
+  <title><p>plotly: Create Interactive Web Graphics via 'plotly.js'</p></title>
+  <aug>
+    <au><snm>Sievert</snm><fnm>C</fnm></au>
+    <au><snm>Parmer</snm><fnm>C</fnm></au>
+    <au><snm>Hocking</snm><fnm>T</fnm></au>
+    <au><snm>Chamberlain</snm><fnm>S</fnm></au>
+    <au><snm>Ram</snm><fnm>K</fnm></au>
+    <au><snm>Corvellec</snm><fnm>M</fnm></au>
+    <au><snm>Despouy</snm><fnm>P</fnm></au>
+  </aug>
+  <url>https://cran.r-project.org/package=plotly</url>
+</bibl>
+
+<bibl id="B43">
+  <title><p>pkgdown: Make static HTML documentation for a package</p></title>
+  <aug>
+    <au><snm>Wickham</snm><fnm>H</fnm></au>
+    <au><snm>Hesselberth</snm><fnm>J</fnm></au>
+  </aug>
+  <url>https://cran.r-project.org/package=pkgdown</url>
+</bibl>
+
+<bibl id="B44">
+  <title><p>RStudio: integrated development for R</p></title>
+  <url>http://www.rstudio.com</url>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
