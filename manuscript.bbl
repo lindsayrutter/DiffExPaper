@@ -1,6 +1,6 @@
 %% BioMed_Central_Bib_Style_v1.01
 
-\begin{thebibliography}{44}
+\begin{thebibliography}{45}
 % BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -585,6 +585,24 @@ Accessed 2018-12-20
 \endbibitem
 
 %%% 36
+\bibitem{rutter2019transcriptomic}
+\begin{barticle}
+\bauthor{\bsnm{Rutter}, \binits{L.}},
+\bauthor{\bsnm{Carrillo-Tripp}, \binits{J.}},
+\bauthor{\bsnm{Bonning}, \binits{B.C.}},
+\bauthor{\bsnm{Cook}, \binits{D.}},
+\bauthor{\bsnm{Toth}, \binits{A.L.}},
+\bauthor{\bsnm{Dolezal}, \binits{A.G.}}:
+\batitle{Transcriptomic responses to diet quality and viral infection in apis
+  mellifera}.
+\bjtitle{BMC genomics}
+\bvolume{20}(\bissue{1}),
+\bfpage{412}
+(\byear{2019})
+\end{barticle}
+\endbibitem
+
+%%% 37
 \bibitem{bigPint}
 \begin{botherref}
 \oauthor{\bsnm{Rutter}, \binits{L.}},
@@ -595,7 +613,7 @@ Accessed 2018-12-20
 \end{botherref}
 \endbibitem
 
-%%% 37
+%%% 38
 \bibitem{bigPint2}
 \begin{botherref}
 \oauthor{\bsnm{Rutter}, \binits{L.}},
@@ -606,7 +624,7 @@ Accessed 2018-12-20
 \end{botherref}
 \endbibitem
 
-%%% 38
+%%% 39
 \bibitem{R}
 \begin{botherref}
 \oauthor{\bsnm{Team}, \binits{R.C.}}:
@@ -616,7 +634,7 @@ Accessed 2018-12-20
 \end{botherref}
 \endbibitem
 
-%%% 39
+%%% 40
 \bibitem{htmlwidgets}
 \begin{botherref}
 \oauthor{\bsnm{Vaidyanathan}, \binits{R.}},
@@ -630,7 +648,7 @@ Accessed 2018-12-20
 \end{botherref}
 \endbibitem
 
-%%% 40
+%%% 41
 \bibitem{ggplot2}
 \begin{bbook}
 \bauthor{\bsnm{Wickham}, \binits{H.}}:
@@ -640,7 +658,7 @@ Accessed 2018-12-20
 \end{bbook}
 \endbibitem
 
-%%% 41
+%%% 42
 \bibitem{shiny}
 \begin{botherref}
 \oauthor{\bsnm{Chang}, \binits{W.}},
@@ -654,7 +672,7 @@ Accessed 2018-12-20
 \end{botherref}
 \endbibitem
 
-%%% 42
+%%% 43
 \bibitem{plotly}
 \begin{botherref}
 \oauthor{\bsnm{Sievert}, \binits{C.}},
@@ -670,7 +688,7 @@ Accessed 2018-12-20
 \end{botherref}
 \endbibitem
 
-%%% 43
+%%% 44
 \bibitem{pkgdown}
 \begin{botherref}
 \oauthor{\bsnm{Wickham}, \binits{H.}},
@@ -681,7 +699,7 @@ Accessed 2018-12-20
 \end{botherref}
 \endbibitem
 
-%%% 44
+%%% 45
 \bibitem{rstudio}
 \begin{botherref}
 RStudio: Integrated Development for R.
@@ -1265,6 +1283,25 @@ Accessed 2018-12-20
 </bibl>
 
 <bibl id="B36">
+  <title><p>Transcriptomic responses to diet quality and viral infection in
+  Apis mellifera</p></title>
+  <aug>
+    <au><snm>Rutter</snm><fnm>L</fnm></au>
+    <au><snm>Carrillo Tripp</snm><fnm>J</fnm></au>
+    <au><snm>Bonning</snm><fnm>BC</fnm></au>
+    <au><snm>Cook</snm><fnm>D</fnm></au>
+    <au><snm>Toth</snm><fnm>AL</fnm></au>
+    <au><snm>Dolezal</snm><fnm>AG</fnm></au>
+  </aug>
+  <source>BMC genomics</source>
+  <publisher>BioMed Central</publisher>
+  <pubdate>2019</pubdate>
+  <volume>20</volume>
+  <issue>1</issue>
+  <fpage>412</fpage>
+</bibl>
+
+<bibl id="B37">
   <title><p>bigPint: Make big data pint-sized</p></title>
   <aug>
     <au><snm>Rutter</snm><fnm>L</fnm></au>
@@ -1273,7 +1310,7 @@ Accessed 2018-12-20
   <url>https://lindsayrutter.github.io/bigPint</url>
 </bibl>
 
-<bibl id="B37">
+<bibl id="B38">
   <title><p>Recommended RNA-seq pipeline</p></title>
   <aug>
     <au><snm>Rutter</snm><fnm>L</fnm></au>
@@ -1282,7 +1319,7 @@ Accessed 2018-12-20
   <url>https://lindsayrutter.github.io/bigPint/articles/pipeline.html</url>
 </bibl>
 
-<bibl id="B38">
+<bibl id="B39">
   <title><p>A language and environment for statistical computing</p></title>
   <aug>
     <au><snm>Team</snm><fnm>RC</fnm></au>
@@ -1290,7 +1327,7 @@ Accessed 2018-12-20
   <url>https://www.R-project.org</url>
 </bibl>
 
-<bibl id="B39">
+<bibl id="B40">
   <title><p>htmlwidgets: HTML Widgets for R, 2016</p></title>
   <aug>
     <au><snm>Vaidyanathan</snm><fnm>R</fnm></au>
@@ -1302,7 +1339,7 @@ Accessed 2018-12-20
   <url>https://cran.r-project.org/package=htmlwidgets</url>
 </bibl>
 
-<bibl id="B40">
+<bibl id="B41">
   <title><p>ggplot2: elegant graphics for data analysis</p></title>
   <aug>
     <au><snm>Wickham</snm><fnm>H</fnm></au>
@@ -1311,7 +1348,7 @@ Accessed 2018-12-20
   <pubdate>2016</pubdate>
 </bibl>
 
-<bibl id="B41">
+<bibl id="B42">
   <title><p>shiny: Web application framework for R [Computer
   software]</p></title>
   <aug>
@@ -1324,7 +1361,7 @@ Accessed 2018-12-20
   <url>https://cran.r-project.org/package=shiny</url>
 </bibl>
 
-<bibl id="B42">
+<bibl id="B43">
   <title><p>plotly: Create Interactive Web Graphics via 'plotly.js'</p></title>
   <aug>
     <au><snm>Sievert</snm><fnm>C</fnm></au>
@@ -1338,7 +1375,7 @@ Accessed 2018-12-20
   <url>https://cran.r-project.org/package=plotly</url>
 </bibl>
 
-<bibl id="B43">
+<bibl id="B44">
   <title><p>pkgdown: Make static HTML documentation for a package</p></title>
   <aug>
     <au><snm>Wickham</snm><fnm>H</fnm></au>
@@ -1347,7 +1384,7 @@ Accessed 2018-12-20
   <url>https://cran.r-project.org/package=pkgdown</url>
 </bibl>
 
-<bibl id="B44">
+<bibl id="B45">
   <title><p>RStudio: integrated development for R</p></title>
   <url>http://www.rstudio.com</url>
 </bibl>
